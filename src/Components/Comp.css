@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically in the container */
+    align-items: center; /* Aligns items in the center horizontally */
+    min-height: 100vh; /* Full screen height */
+    background-color: #fffecc; /* Light yellow background */
+    padding: 20px;
+  }
+   
+  .form-control {
+    margin-bottom: 15px; /* Adds space below each input */
+    width: 300px; /* Sets a standard width for all text boxes */
+  }
+   
+  .btn {
+    width: 150px; /* Standard width for buttons to make them more visible */
+    margin-bottom: 15px; /* Adds space below each button */
+  }
+   
+  .table {
+    margin-top: 20px; /* Adds space above the table */
+    background-color: #ffffff; /* White background for the table */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+  }
+   
+  /* Styles for the modal, if you want to customize it further */
+  .modal-content {
+    padding: 20px;
+    background-color: #f0f0f0; /* Slightly off-white for the modal background */
+  }
+   
+  /* Adjusts spacing and alignment of modal elements */
+  .modal-header, .modal-body, .modal-footer {
+    display: flex;
+    justify-content: center; /* Centers modal content horizontally */
+    align-items: center; /* Centers modal content vertically */
+  }
